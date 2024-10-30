@@ -17,6 +17,9 @@ export async function fetchPhotos({ pageParam = 1 }: FetchParams) {
   return res.data;
 }
 
+/**
+ * Fetch photos from the Unsplash Editorial feed
+ */
 export function usePhotos() {
   return useInfiniteQuery({
     queryKey: ['photos'],

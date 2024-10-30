@@ -22,6 +22,9 @@ type QueryParams = {
   search: string;
 };
 
+/**
+ * Search photos with `search` query
+ */
 export function useSearch({ search }: QueryParams) {
   return useInfiniteQuery({
     queryKey: ['photos', search],

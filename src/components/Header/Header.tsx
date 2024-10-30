@@ -62,6 +62,7 @@ export function Header() {
     setInputValue(value);
   };
 
+  // TODO: this is not future-proof => watch if we leave the search page
   const isHome = useLocation({
     select: (location) => location.pathname === '/',
   });

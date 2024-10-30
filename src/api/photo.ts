@@ -16,6 +16,9 @@ type QueryCachePhoto = {
   pages: Array<Array<Basic>>;
 };
 
+/**
+ * Fetch a photo from its ID
+ */
 export function usePhoto({ id }: { id: Basic['id'] }) {
   const queryClient = useQueryClient();
 
