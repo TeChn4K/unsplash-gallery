@@ -1,5 +1,11 @@
 # Demo Unsplash Gallery
 
+## Stack
+
+- TanStack Router
+- React Query & Axios
+- PandaCSS & Park-UI
+
 ## Prerequisites
 
 You must have the following installed on your machine:
